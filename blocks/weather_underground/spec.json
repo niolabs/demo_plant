@@ -1,0 +1,100 @@
+{
+  "nio/WeatherUndergroundConditions": {
+    "version": "2.0.0",
+    "description": "Gets current conditions weather data from WeatherUnderground for the given city and state.",
+    "categories": [
+      "Web Data"
+    ],
+    "properties": {
+      "api_key": {
+        "title": "API Key",
+        "type": "StringType",
+        "description": "WeatherUnderground API key",
+        "default": "[[WEATHER_UNDERGROUND_KEY_ID]]"
+      },
+      "city": {
+        "title": "City",
+        "type": "StringType",
+        "description": "City to get conditions for",
+        "default": ""
+      },
+      "retry_options": {
+        "title": "Retry Options",
+        "type": "ObjectType",
+        "description": "Options for retrying requests to WeatherUnderground",
+        "default": {
+          "indefinite": false,
+          "strategy": "linear",
+          "max_retry": 5,
+          "multiplier": 1
+        }
+      },
+      "state": {
+        "title": "State",
+        "type": "StringType",
+        "description": "State to get conditions for",
+        "default": ""
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "A list of signals, one signal for each input signal with added weather data attributes."
+      }
+    },
+    "commands": {}
+  },
+  "nio/WeatherUndergroundForecast10Day": {
+    "version": "2.0.0",
+    "description": "Gets 10 day forecast weather data from WeatherUnderground for the given city and state.",
+    "categories": [
+      "Web Data"
+    ],
+    "properties": {
+      "api_key": {
+        "title": "API Key",
+        "type": "StringType",
+        "description": "API credentials.",
+        "default": "[[WEATHER_UNDERGROUND_KEY_ID]]"
+      },
+      "city": {
+        "title": "City",
+        "type": "StringType",
+        "description": "City to get forecast for",
+        "default": ""
+      },
+      "retry_options": {
+        "title": "Retry Options",
+        "type": "ObjectType",
+        "description": "Options for retrying requests to WeatherUnderground",
+        "default": {
+          "indefinite": false,
+          "strategy": "linear",
+          "max_retry": 5,
+          "multiplier": 1
+        }
+      },
+      "state": {
+        "title": "State",
+        "type": "StringType",
+        "description": "State to poll.",
+        "default": ""
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "A list of signals, one signal for each input signal with added weather data attributes."
+      }
+    },
+    "commands": {}
+  }
+}
