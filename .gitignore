@@ -70,8 +70,8 @@ docs/_build/
 *.swp
 
 # nio stuff
-instance/logs
-instance/etc/persist/
-instance/blocks/etc/persist/
-instance/nio.err
-/instance/etc/api_key.cfg
+logs/
+etc/persist/
+blocks/etc/persist/
+nio.err
+etc/api_key.cfg
