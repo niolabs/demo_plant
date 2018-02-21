@@ -1,7 +1,0 @@
-{
-  "nio/CSVWriter": {
-    "language": "Python",
-    "url": "git://github.com/nio-blocks/csv_files.git",
-    "version": "0.1.0"
-  }
-}
