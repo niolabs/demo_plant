@@ -1,0 +1,36 @@
+[submodule "blocks/attribute_selector"]
+	path = blocks/attribute_selector
+	url = git://github.com/nio-blocks/attribute_selector
+[submodule "blocks/communication"]
+	path = blocks/communication
+	url = git://github.com/nio-blocks/communication
+[submodule "blocks/csv_files"]
+	path = blocks/csv_files
+	url = git://github.com/nio-blocks/csv_files
+[submodule "blocks/filter"]
+	path = blocks/filter
+	url = git://github.com/nio-blocks/filter
+[submodule "blocks/join"]
+	path = blocks/join
+	url = git://github.com/nio-blocks/join
+[submodule "blocks/logger"]
+	path = blocks/logger
+	url = git://github.com/nio-blocks/logger
+[submodule "blocks/merge_streams"]
+	path = blocks/merge_streams
+	url = git://github.com/nio-blocks/merge_streams
+[submodule "blocks/modifier"]
+	path = blocks/modifier
+	url = git://github.com/nio-blocks/modifier
+[submodule "blocks/replicator"]
+	path = blocks/replicator
+	url = git://github.com/nio-blocks/replicator
+[submodule "blocks/simulator"]
+	path = blocks/simulator
+	url = git://github.com/nio-blocks/simulator
+[submodule "blocks/state"]
+	path = blocks/state
+	url = git://github.com/nio-blocks/state
+[submodule "blocks/weather_underground"]
+	path = blocks/weather_underground
+	url = git://github.com/nio-blocks/weather_underground
