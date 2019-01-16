@@ -31,6 +31,3 @@
 [submodule "blocks/state"]
 	path = blocks/state
 	url = git://github.com/nio-blocks/state
-[submodule "blocks/weather_underground"]
-	path = blocks/weather_underground
-	url = git://github.com/nio-blocks/weather_underground
